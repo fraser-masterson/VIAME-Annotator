@@ -52,7 +52,7 @@ The rectangle's borders are defined by two sets of coordinates:
  - Top left x (in code: '4-7: Img-bbox(TL_x') and top left y (in code: 'TL_y')
  - Bottom right x (in code: 'BR_x') and bottom right y (in code: 'BR_y)')
 
-If the current rectangle's borders overlap with the previous rectangle, the current rectangle' ID number becomes the same as the previous rectangle's ID. If the current rectangle does not overlap with the previous rectangle, it is labelled as 'x+y', with x representing the first individual's ID number, and y reoresenting the amount of groups that have been categorised prior to the current grouping. This cycle restarts at every new frame or image.
+If the current rectangle's borders overlap with the previous rectangle, the current rectangle' ID number becomes the same as the previous rectangle's ID. If the current rectangle does not overlap with the previous rectangle, it is labelled as 'x+y', with x representing the first individual's ID number, and y representing the amount of groups that have been categorised prior to the current grouping. This cycle restarts at every new frame or image.
 
 Due to the nature of this code, the ID numbers that are output from the code are reliant on the order in which the individuals are annotated in the frame.
 
